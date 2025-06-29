@@ -1,15 +1,18 @@
-Welcome to your new dbt project!
+# ☕ The Qurious Cafe: DBT + DuckDB Project
 
-### Using the starter project
+This project models customer and order data for a fictional café using the modern data stack — including DBT, DuckDB, and Git.
 
-Try running the following commands:
-- dbt run
-- dbt test
+## 🧱 Project Structure
+
+- `models/` – DBT models (staging, marts)
+- `data/` – CSV seed data
+- `tests/` – Custom data quality tests
+- `dbt_project.yml` – DBT config
 
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/your-name/qurious_cafe.git
+cd qurious_cafe
+
