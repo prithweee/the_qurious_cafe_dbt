@@ -3,5 +3,5 @@ SELECT
     customer_id,  
     order_date,  
     order_status  
-FROM main.Orders  
+FROM {{ ref('Orders') }}
 WHERE order_status = 'Completed'

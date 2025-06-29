@@ -4,4 +4,4 @@ SELECT
     item_name,
     quantity,
     price
-  FROM main.OrderItems
+  FROM {{ ref('OrderItems') }}

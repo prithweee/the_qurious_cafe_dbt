@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: stg_customers
+    description: "Staging model for customers"
+    columns:
+      - name: customer_id
+        description: "Primary key"
+        tests:
+          - unique
+          - not_null
+
+      - name: name
+        description: "Customer name"
+        tests:
+          - not_null
+
+      - name: loyalty_member
+        description: "Indicates if the customer is a loyalty member"
+        tests:
+          - not_null
