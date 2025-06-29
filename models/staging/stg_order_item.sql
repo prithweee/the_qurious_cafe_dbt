@@ -4,4 +4,4 @@ SELECT
     item_name,
     quantity,
     price
-  FROM main.Order_Item;
+  FROM main.OrderItems

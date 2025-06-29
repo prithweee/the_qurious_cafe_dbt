@@ -3,4 +3,4 @@ SELECT
   name,
   join_date,
   loyalty_member 
-FROM main.Customers;
+FROM main.Customers

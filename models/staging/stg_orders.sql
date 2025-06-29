@@ -4,4 +4,4 @@ SELECT
     order_date,  
     order_status  
 FROM main.Orders  
-WHERE order_status = 'Completed';
+WHERE order_status = 'Completed'
