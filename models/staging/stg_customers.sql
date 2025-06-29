@@ -1,0 +1,6 @@
+SELECT 
+  customer_id,
+  name,
+  join_date,
+  loyalty_member 
+FROM main.Customers;
